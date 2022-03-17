@@ -5,7 +5,7 @@ The purpose of this project was to build an employee database from multiple CSV 
 
 ## Results
 
-The employee database was built using [PostgreSQL](schema.sql) from the following six CSV files: [employees](Data/Original/employees.csv), [departments](Data/ Original/departments.csv), [department employees](Data/Original/dept_emp.csv), [department managers](Data/Original/dept_manager.csv], [titles](Data/Original/titles.csv), and [salaries](Data/Original/salaries.csv). [PostgreSQL queries](Queries/Employee_Database_Challenge.sql) were used to retrieve and examine data relevant to upcoming retirements.
+The employee database was built using [PostgreSQL](schema.sql) from the following six CSV files: [employees](Data/Original/employees.csv), [departments](Data/Original/departments.csv), [department employees](Data/Original/dept_emp.csv), [department managers](Data/Original/dept_manager.csv), [titles](Data/Original/titles.csv), and [salaries](Data/Original/salaries.csv). [PostgreSQL queries](Queries/Employee_Database_Challenge.sql) were used to retrieve and examine data relevant to upcoming retirements.
 
 ### Retirements by Title
 The first table below shows the number of employees eligible for retirement for each position title. This table is available as a [CSV file](Data/retiring_titles.csv), as is the full [CSV file of employees eligible for retirement with current title](Data/unique_titles.csv). The second table below shows the total number of current employees for each position. From the tables below, we can see the following:
